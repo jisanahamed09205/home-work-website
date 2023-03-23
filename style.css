@@ -67,6 +67,15 @@ section{
 .row{
     text-align: center;
 }
+.footer-text{
+    text-align: center;
+}
+#normal{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
 
+    
+}
 
 
