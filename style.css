@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 50px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: crimson;
+
+}
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.header-banner{
+    background-image: url("personal-website/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biography-area{
+    background-image: url("personal-website/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest-area{
+    background-image: url("personal-website/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#e57997,crimson );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: right;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row{
+    text-align: center;
+}
+
+
+
